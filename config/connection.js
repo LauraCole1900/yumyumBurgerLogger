@@ -1,5 +1,5 @@
 const mysql = require("mysql");
-const config = require("./config.json");
+const config = require("../config/config.json");
 const util = require("util");
 
 var connection = mysql.createConnection(config);
