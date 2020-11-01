@@ -1,0 +1,30 @@
+{
+  "name": "homework11",
+  "version": "1.0.0",
+  "description": "* [Description](#description)\r   * [Links](#links)\r   * [Screenshots](#screenshots)\r   * [Installation](#installation)\r   * [Usage](#usage)\r   * [Technologies Used](#technologies)\r   * [Tests](#tests)\r   * [Credits](#credits)\r   * [Contributing](#contributing)\r   * [Questions](#questions)\r   * [License](#license)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraCole1900/yumyumBurgerLogger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauraCole1900/yumyumBurgerLogger/issues"
+  },
+  "homepage": "https://github.com/LauraCole1900/yumyumBurgerLogger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
