@@ -20,7 +20,7 @@ Description and user instructions
 
 ## Links
 
-[Deployed application on Heroku](https://glacial-inlet-91410.herokuapp.com/)
+[Deployed application on Heroku](https://floating-lake-94290.herokuapp.com/)
 
 ## Screenshots
 
