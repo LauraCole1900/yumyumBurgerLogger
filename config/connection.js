@@ -1,17 +1,20 @@
 const mysql = require("mysql");
-const config = require("../config/config.json");
-const util = require("util");
 
-var connection = mysql.createConnection(config);
+const connection = mysql.createConnection({
+  host: "localhost",
+  port: 3306,
+  user: "root",
+  password: "B00tc@mp2020",
+  database: "burgers_db"
+});
 
 connection.connect(function(err) {
   if (err) {
     console.error("error connecting: " + err.stack);
     return;
   }
-  console.log("connected as id " + connection.threadId + "\n");
+  console.log("connected as id " + connection.threadId);
 });
 
-connection.query = util.promisify(connection.query);
-
+// Export
 module.exports = connection;

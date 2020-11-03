@@ -4,6 +4,17 @@ const burger = require("../models/burger.js");
 
 // Create the `router` for the app, and export the `router` at the end of your file.
 
+// R: GET
+router.get("/", function(req, res) {
+  burger.all(function(data) {
+    var hbrObject = {
+      burger: data
+    };
+    console.log(hbrObject);
+    res.render("index", hbrObject);
+  });
+});
+
 // C: POST
 router.post("/api/burgers", function(req, res) {
   burger.create([
@@ -12,17 +23,6 @@ router.post("/api/burgers", function(req, res) {
     req.body.name, req.body.devoured
   ], function(result) {
     res.json({ id: result.insertId });
-  });
-});
-
-// R: GET
-router.get("/", function(req, res) {
-  burger.all(function(data) {
-    var handlebObject = {
-      cats: data
-    };
-    console.log(handlebObject);
-    res.render("index", handlebObject);
   });
 });
 
@@ -43,7 +43,7 @@ router.put("/api/burgers/:id", function(req, res) {
 });
 
 // D: DELETE
-router.delete("/api/cats/:id", function(req, res) {
+router.delete("/api/burgers/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
   burger.delete(condition, function(result) {

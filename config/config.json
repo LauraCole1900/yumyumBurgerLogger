@@ -1,7 +1,0 @@
-{
-  "host": "localhost",
-  "port": "const PORT = process.env.PORT || 3306",
-  "user": "root",
-  "password": "B00tc@mp2020",
-  "database": "burgers_db"
-}
