@@ -6,7 +6,6 @@
 * [Links](#links)
 * [Screenshots](#screenshots)
 * [Installation](#installation)
-* [Usage](#usage)
 * [Technologies Used](#technologies)
 * [Tests](#tests)
 * [Credits](#credits)
@@ -16,7 +15,7 @@
 
 ## Description
 
-Description and user instructions
+This app allows the user to move a burger from the "undevoured" section on the left to the "devoured" section on the right, delete a burger, and add a new burger, all by clicking the appropriate button.
 
 ## Links
 
@@ -25,21 +24,17 @@ Description and user instructions
 ## Screenshots
 
 Landing page:
-![Landing page:](public/assets/landing-page-screenshot.png)
+![Landing page:](./public/assets/img/yum-yum-landing-page.png)
 
 Page with undevoured burgers on the left and devoured burgers on the right:
-![Page with undevoured burgers on the left and devoured burgers on the right](public/assets/notes-page-with-notes-screenshot.png)
+![Page with undevoured burgers on the left and devoured burgers on the right](./public/assets/img/yum-yum-undevoured-devoured.png)
 
 Add Burger form:
-![Add Burger form](public/assets/notes-page-previous-note-screenshot.png)
+![Add Burger form](./public/assets/img/yum-yum-form.png)
 
 ## Installation Instructions
 
 npm i
-
-## Usage
-
-Usage info
 
 ## Technologies Used
 
