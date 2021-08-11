@@ -81,7 +81,7 @@ npm run test
 
 ## Credits
 
-N/A
+Burger image from [here](https://www.vhv.rs/viewpic/TRRRohw_hamburger-clipart-jpeg-burger-clipart-png-transparent-png/)
 
 ## Contributing
 
