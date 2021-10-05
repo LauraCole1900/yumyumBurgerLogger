@@ -73,7 +73,7 @@ $ localhost:3005
 
 ## Technologies Used
 
-Node.js, Express, Express Handlebars, MySQL
+[![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![Express.js](https://img.shields.io/badge/built%20with-Express.js-303030)](https://expressjs.com/) [![Handlebars](https://img.shields.io/badge/built%20with-Express%20Handlebars-cb3837)](https://www.npmjs.com/package/express-handlebars) [![MySQL](https://img.shields.io/badge/built%20with-MySQL-00758f)](https://www.mysql.com/)
 
 ## Tests
 
