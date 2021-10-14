@@ -1,7 +1,7 @@
 {
-  "name": "homework11",
+  "name": "handlebars-burger-logger",
   "version": "1.0.0",
-  "description": "* [Description](#description)\r   * [Links](#links)\r   * [Screenshots](#screenshots)\r   * [Installation](#installation)\r   * [Usage](#usage)\r   * [Technologies Used](#technologies)\r   * [Tests](#tests)\r   * [Credits](#credits)\r   * [Contributing](#contributing)\r   * [Questions](#questions)\r   * [License](#license)",
+  "description": "simple burger logger using handlebars.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
